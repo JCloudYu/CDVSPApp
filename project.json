@@ -1,0 +1,26 @@
+{
+	"serial": "000000000001",
+	"version": "0.5.0",
+	"project_id": "com.purimize.com.demo",
+	"name": "CDVSPApp",
+	"description": "Prototype app project for cordova mobile projects",
+	"icon": "external/build/icon.png",
+	"splash": "external/build/splash.png",
+	"files": [
+		{ "op":"copy",		"src":"external/build/open.png",	"dest":"www/res/img/open.png" },
+		{ "op":"copy",		"src":"external/build/icon.png",	"dest":"www/res/img/logo.png" },
+		{ "op":"copy",		"src":"external/build/splash.png",	"dest":"www/res/img/splash.png" }
+	],
+	"expansion":[
+		{ "@@node":"preference", "name":"Boot-Script", "value":"./app/js/app.js" },
+		{ "@@node":"preference", "name":"Remote-Host", "value":"https://demo.elandfintech.com/mobile" },
+		{ "@@node":"preference", "name":"Mobile-Address", "value":"b89bb2499053d2743dda3937ce2a621a175c50fc" }
+	],
+	"additional":{
+		"android":{
+			"key":"signkey.jks",
+			"alias":"365ufun",
+			"passphrase":"m}h3MS8]!$.#"
+		}
+	}
+}

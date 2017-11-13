@@ -1,0 +1,4 @@
+body { outline:none; font-size:32px; }
+
+.loading-overlay { background:#000; }
+.loading-overlay .msg { color:#FFF; }

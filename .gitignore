@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+thumbs.db
+.idea
+
+node_modules
+/platforms
+/plugins
+/res
+/www/res
+/config.xml
+
+!ANCHOR.md
+base-dependency.txt
+package-lock.json
+/package.json
