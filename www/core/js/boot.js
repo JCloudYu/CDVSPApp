@@ -10,9 +10,6 @@
 	
 	// INFO: Update core libraries using built-in pipe
 	pipe([
-		'https://res.purimize.com/lib/js/pump.js',
-	
-		// Initialize error collector & main overlay system
 		function(){
 			window.env = {
 				get error(){return _errors.slice(0);},

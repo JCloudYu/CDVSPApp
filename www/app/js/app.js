@@ -6,7 +6,7 @@
 			'https://res.purimize.com/lib/js/jquery/jquery.tmpl.min.js',
 			{ path:'app/css/app.css', type:'css' },
 			()=>{
-				overlay.show( 'Welcome!' );
+				overlay.show( 'Welcome CDVSPApp!' );
 			}
 		])
 		.then(()=>{
